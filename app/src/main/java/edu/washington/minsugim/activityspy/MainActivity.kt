@@ -9,9 +9,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Log.i(TAG, "onCreate fired")
+        Log.i(TAG, "onCreate fired, additional info: " + savedInstanceState.toString())
         setContentView(R.layout.activity_main)
-
     }
 
     override fun onStart() {

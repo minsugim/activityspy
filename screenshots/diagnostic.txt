@@ -1,71 +1,71 @@
-04-12 21:24:33.920 2133-2133/? I/dalvikvm: Could not find method android.view.Window$Callback.onPointerCaptureChanged, referenced from method android.support.v7.view.WindowCallbackWrapper.onPointerCaptureChanged
-04-12 21:24:33.920 2133-2133/? W/dalvikvm: VFY: unable to resolve interface method 13805: Landroid/view/Window$Callback;.onPointerCaptureChanged (Z)V
-04-12 21:24:33.920 2133-2133/? I/dalvikvm: Could not find method android.view.Window$Callback.onProvideKeyboardShortcuts, referenced from method android.support.v7.view.WindowCallbackWrapper.onProvideKeyboardShortcuts
-04-12 21:24:33.920 2133-2133/? W/dalvikvm: VFY: unable to resolve interface method 13807: Landroid/view/Window$Callback;.onProvideKeyboardShortcuts (Ljava/util/List;Landroid/view/Menu;I)V
-04-12 21:24:33.920 2133-2133/? W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
-04-12 21:24:33.920 2133-2133/? I/dalvikvm: Could not find method android.view.Window$Callback.onSearchRequested, referenced from method android.support.v7.view.WindowCallbackWrapper.onSearchRequested
-04-12 21:24:33.920 2133-2133/? W/dalvikvm: VFY: unable to resolve interface method 13809: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
-04-12 21:24:33.920 2133-2133/? I/dalvikvm: Could not find method android.view.Window$Callback.onWindowStartingActionMode, referenced from method android.support.v7.view.WindowCallbackWrapper.onWindowStartingActionMode
-04-12 21:24:33.940 2133-2133/? W/dalvikvm: VFY: unable to resolve interface method 13813: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
-04-12 21:24:33.940 2133-2133/? I/dalvikvm: Could not find method android.content.res.TypedArray.getChangingConfigurations, referenced from method android.support.v7.widget.TintTypedArray.getChangingConfigurations
-04-12 21:24:33.940 2133-2133/? W/dalvikvm: VFY: unable to resolve virtual method 818: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
-04-12 21:24:33.940 2133-2133/? I/dalvikvm: Could not find method android.content.res.TypedArray.getType, referenced from method android.support.v7.widget.TintTypedArray.getType
-04-12 21:24:33.940 2133-2133/? W/dalvikvm: VFY: unable to resolve virtual method 840: Landroid/content/res/TypedArray;.getType (I)I
-04-12 21:24:33.940 2133-2133/? I/dalvikvm: Could not find method android.content.Context.createDeviceProtectedStorageContext, referenced from method android.support.v4.content.ContextCompat.createDeviceProtectedStorageContext
-04-12 21:24:33.940 2133-2133/? W/dalvikvm: VFY: unable to resolve virtual method 597: Landroid/content/Context;.createDeviceProtectedStorageContext ()Landroid/content/Context;
-04-12 21:24:33.940 2133-2133/? I/dalvikvm: Could not find method android.content.Context.getCodeCacheDir, referenced from method android.support.v4.content.ContextCompat.getCodeCacheDir
-04-12 21:24:33.940 2133-2133/? W/dalvikvm: VFY: unable to resolve virtual method 603: Landroid/content/Context;.getCodeCacheDir ()Ljava/io/File;
-04-12 21:24:33.940 2133-2133/? I/dalvikvm: Could not find method android.content.Context.getColor, referenced from method android.support.v4.content.ContextCompat.getColor
-04-12 21:24:33.940 2133-2133/? W/dalvikvm: VFY: unable to resolve virtual method 604: Landroid/content/Context;.getColor (I)I
-04-12 21:24:33.940 2133-2133/? I/dalvikvm: Could not find method android.content.Context.getColorStateList, referenced from method android.support.v4.content.ContextCompat.getColorStateList
-04-12 21:24:33.940 2133-2133/? W/dalvikvm: VFY: unable to resolve virtual method 605: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
-04-12 21:24:33.940 2133-2133/? I/dalvikvm: Could not find method android.content.Context.getDataDir, referenced from method android.support.v4.content.ContextCompat.getDataDir
-04-12 21:24:33.940 2133-2133/? W/dalvikvm: VFY: unable to resolve virtual method 607: Landroid/content/Context;.getDataDir ()Ljava/io/File;
-04-12 21:24:33.940 2133-2133/? I/dalvikvm: Could not find method android.content.Context.getDrawable, referenced from method android.support.v4.content.ContextCompat.getDrawable
-04-12 21:24:33.940 2133-2133/? W/dalvikvm: VFY: unable to resolve virtual method 608: Landroid/content/Context;.getDrawable (I)Landroid/graphics/drawable/Drawable;
-04-12 21:24:33.940 2133-2133/? I/dalvikvm: Could not find method android.content.Context.getNoBackupFilesDir, referenced from method android.support.v4.content.ContextCompat.getNoBackupFilesDir
-04-12 21:24:33.940 2133-2133/? W/dalvikvm: VFY: unable to resolve virtual method 616: Landroid/content/Context;.getNoBackupFilesDir ()Ljava/io/File;
-04-12 21:24:33.940 2133-2133/? I/dalvikvm: Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method android.support.v4.content.ContextCompat.isDeviceProtectedStorage
-04-12 21:24:33.940 2133-2133/? W/dalvikvm: VFY: unable to resolve virtual method 629: Landroid/content/Context;.isDeviceProtectedStorage ()Z
-04-12 21:24:33.940 2133-2133/? I/dalvikvm: Could not find method android.content.Context.startForegroundService, referenced from method android.support.v4.content.ContextCompat.startForegroundService
-04-12 21:24:33.940 2133-2133/? W/dalvikvm: VFY: unable to resolve virtual method 644: Landroid/content/Context;.startForegroundService (Landroid/content/Intent;)Landroid/content/ComponentName;
-04-12 21:24:33.940 2133-2133/? I/MainActivity: onCreate fired
-04-12 21:24:33.950 2133-2133/? I/dalvikvm: Could not find method android.widget.FrameLayout.startActionModeForChild, referenced from method android.support.v7.widget.ActionBarContainer.startActionModeForChild
-04-12 21:24:33.950 2133-2133/? W/dalvikvm: VFY: unable to resolve virtual method 14291: Landroid/widget/FrameLayout;.startActionModeForChild (Landroid/view/View;Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
-04-12 21:24:33.950 2133-2133/? I/dalvikvm: Could not find method android.content.Context.getColorStateList, referenced from method android.support.v7.content.res.AppCompatResources.getColorStateList
-04-12 21:24:33.950 2133-2133/? W/dalvikvm: VFY: unable to resolve virtual method 605: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
-04-12 21:24:33.950 2133-2133/? I/dalvikvm: Could not find method android.content.res.Resources.getDrawable, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawable
-04-12 21:24:33.950 2133-2133/? W/dalvikvm: VFY: unable to resolve virtual method 781: Landroid/content/res/Resources;.getDrawable (ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
-04-12 21:24:33.950 2133-2133/? I/dalvikvm: Could not find method android.content.res.Resources.getDrawableForDensity, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawableForDensity
-04-12 21:24:33.950 2133-2133/? W/dalvikvm: VFY: unable to resolve virtual method 783: Landroid/content/res/Resources;.getDrawableForDensity (IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
-04-12 21:24:33.960 2133-2133/? E/dalvikvm: Could not find class 'android.graphics.drawable.RippleDrawable', referenced from method android.support.v7.widget.AppCompatImageHelper.hasOverlappingRendering
-04-12 21:24:33.960 2133-2133/? W/dalvikvm: VFY: unable to resolve instanceof 226 (Landroid/graphics/drawable/RippleDrawable;) in Landroid/support/v7/widget/AppCompatImageHelper;
-04-12 21:24:33.960 2133-2133/? I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeMaxTextSize, referenced from method android.support.v7.widget.AppCompatTextView.getAutoSizeMaxTextSize
-04-12 21:24:33.960 2133-2133/? W/dalvikvm: VFY: unable to resolve virtual method 14602: Landroid/widget/TextView;.getAutoSizeMaxTextSize ()I
-04-12 21:24:33.960 2133-2133/? I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeMinTextSize, referenced from method android.support.v7.widget.AppCompatTextView.getAutoSizeMinTextSize
-04-12 21:24:33.960 2133-2133/? W/dalvikvm: VFY: unable to resolve virtual method 14603: Landroid/widget/TextView;.getAutoSizeMinTextSize ()I
-04-12 21:24:33.960 2133-2133/? I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeStepGranularity, referenced from method android.support.v7.widget.AppCompatTextView.getAutoSizeStepGranularity
-04-12 21:24:33.960 2133-2133/? W/dalvikvm: VFY: unable to resolve virtual method 14604: Landroid/widget/TextView;.getAutoSizeStepGranularity ()I
-04-12 21:24:33.960 2133-2133/? I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeTextAvailableSizes, referenced from method android.support.v7.widget.AppCompatTextView.getAutoSizeTextAvailableSizes
-04-12 21:24:33.960 2133-2133/? W/dalvikvm: VFY: unable to resolve virtual method 14605: Landroid/widget/TextView;.getAutoSizeTextAvailableSizes ()[I
-04-12 21:24:33.960 2133-2133/? I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeTextType, referenced from method android.support.v7.widget.AppCompatTextView.getAutoSizeTextType
-04-12 21:24:33.960 2133-2133/? W/dalvikvm: VFY: unable to resolve virtual method 14606: Landroid/widget/TextView;.getAutoSizeTextType ()I
-04-12 21:24:33.960 2133-2133/? I/dalvikvm: Could not find method android.widget.TextView.setAutoSizeTextTypeUniformWithConfiguration, referenced from method android.support.v7.widget.AppCompatTextView.setAutoSizeTextTypeUniformWithConfiguration
-04-12 21:24:33.960 2133-2133/? W/dalvikvm: VFY: unable to resolve virtual method 14652: Landroid/widget/TextView;.setAutoSizeTextTypeUniformWithConfiguration (IIII)V
-04-12 21:24:33.960 2133-2133/? I/dalvikvm: Could not find method android.widget.TextView.setAutoSizeTextTypeUniformWithPresetSizes, referenced from method android.support.v7.widget.AppCompatTextView.setAutoSizeTextTypeUniformWithPresetSizes
-04-12 21:24:33.960 2133-2133/? W/dalvikvm: VFY: unable to resolve virtual method 14653: Landroid/widget/TextView;.setAutoSizeTextTypeUniformWithPresetSizes ([II)V
-04-12 21:24:33.960 2133-2133/? I/dalvikvm: Could not find method android.widget.TextView.setAutoSizeTextTypeWithDefaults, referenced from method android.support.v7.widget.AppCompatTextView.setAutoSizeTextTypeWithDefaults
-04-12 21:24:33.960 2133-2133/? W/dalvikvm: VFY: unable to resolve virtual method 14654: Landroid/widget/TextView;.setAutoSizeTextTypeWithDefaults (I)V
-04-12 21:24:33.960 2133-2133/? I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeStepGranularity, referenced from method android.support.v7.widget.AppCompatTextHelper.loadFromAttributes
-04-12 21:24:33.970 2133-2133/? W/dalvikvm: VFY: unable to resolve virtual method 14604: Landroid/widget/TextView;.getAutoSizeStepGranularity ()I
-04-12 21:24:33.970 2133-2133/? I/dalvikvm: Could not find method android.text.StaticLayout$Builder.obtain, referenced from method android.support.v7.widget.AppCompatTextViewAutoSizeHelper.createStaticLayoutForMeasuring
-04-12 21:24:33.970 2133-2133/? W/dalvikvm: VFY: unable to resolve static method 13068: Landroid/text/StaticLayout$Builder;.obtain (Ljava/lang/CharSequence;IILandroid/text/TextPaint;I)Landroid/text/StaticLayout$Builder;
-04-12 21:24:33.970 2133-2133/? I/MainActivity: onStart event fired
+04-12 21:42:07.731 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.view.Window$Callback.onPointerCaptureChanged, referenced from method android.support.v7.view.WindowCallbackWrapper.onPointerCaptureChanged
+04-12 21:42:07.731 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve interface method 13805: Landroid/view/Window$Callback;.onPointerCaptureChanged (Z)V
+04-12 21:42:07.731 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.view.Window$Callback.onProvideKeyboardShortcuts, referenced from method android.support.v7.view.WindowCallbackWrapper.onProvideKeyboardShortcuts
+04-12 21:42:07.731 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve interface method 13807: Landroid/view/Window$Callback;.onProvideKeyboardShortcuts (Ljava/util/List;Landroid/view/Menu;I)V
+04-12 21:42:07.731 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.view.Window$Callback.onSearchRequested, referenced from method android.support.v7.view.WindowCallbackWrapper.onSearchRequested
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve interface method 13809: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.view.Window$Callback.onWindowStartingActionMode, referenced from method android.support.v7.view.WindowCallbackWrapper.onWindowStartingActionMode
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve interface method 13813: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.content.res.TypedArray.getChangingConfigurations, referenced from method android.support.v7.widget.TintTypedArray.getChangingConfigurations
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve virtual method 818: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.content.res.TypedArray.getType, referenced from method android.support.v7.widget.TintTypedArray.getType
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve virtual method 840: Landroid/content/res/TypedArray;.getType (I)I
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.content.Context.createDeviceProtectedStorageContext, referenced from method android.support.v4.content.ContextCompat.createDeviceProtectedStorageContext
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve virtual method 597: Landroid/content/Context;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.content.Context.getCodeCacheDir, referenced from method android.support.v4.content.ContextCompat.getCodeCacheDir
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve virtual method 603: Landroid/content/Context;.getCodeCacheDir ()Ljava/io/File;
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.content.Context.getColor, referenced from method android.support.v4.content.ContextCompat.getColor
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve virtual method 604: Landroid/content/Context;.getColor (I)I
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.content.Context.getColorStateList, referenced from method android.support.v4.content.ContextCompat.getColorStateList
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve virtual method 605: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.content.Context.getDataDir, referenced from method android.support.v4.content.ContextCompat.getDataDir
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve virtual method 607: Landroid/content/Context;.getDataDir ()Ljava/io/File;
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.content.Context.getDrawable, referenced from method android.support.v4.content.ContextCompat.getDrawable
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve virtual method 608: Landroid/content/Context;.getDrawable (I)Landroid/graphics/drawable/Drawable;
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.content.Context.getNoBackupFilesDir, referenced from method android.support.v4.content.ContextCompat.getNoBackupFilesDir
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve virtual method 616: Landroid/content/Context;.getNoBackupFilesDir ()Ljava/io/File;
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method android.support.v4.content.ContextCompat.isDeviceProtectedStorage
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve virtual method 629: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.content.Context.startForegroundService, referenced from method android.support.v4.content.ContextCompat.startForegroundService
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve virtual method 644: Landroid/content/Context;.startForegroundService (Landroid/content/Intent;)Landroid/content/ComponentName;
+04-12 21:42:07.741 3298-3298/edu.washington.minsugim.activityspy I/MainActivity: onCreate fired, additional info: null
+04-12 21:42:07.781 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.widget.FrameLayout.startActionModeForChild, referenced from method android.support.v7.widget.ActionBarContainer.startActionModeForChild
+04-12 21:42:07.781 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve virtual method 14291: Landroid/widget/FrameLayout;.startActionModeForChild (Landroid/view/View;Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+04-12 21:42:07.781 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.content.Context.getColorStateList, referenced from method android.support.v7.content.res.AppCompatResources.getColorStateList
+04-12 21:42:07.781 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve virtual method 605: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
+04-12 21:42:07.791 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.content.res.Resources.getDrawable, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawable
+04-12 21:42:07.791 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve virtual method 781: Landroid/content/res/Resources;.getDrawable (ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+04-12 21:42:07.791 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.content.res.Resources.getDrawableForDensity, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawableForDensity
+04-12 21:42:07.791 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve virtual method 783: Landroid/content/res/Resources;.getDrawableForDensity (IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+04-12 21:42:07.791 3298-3298/edu.washington.minsugim.activityspy E/dalvikvm: Could not find class 'android.graphics.drawable.RippleDrawable', referenced from method android.support.v7.widget.AppCompatImageHelper.hasOverlappingRendering
+04-12 21:42:07.791 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve instanceof 226 (Landroid/graphics/drawable/RippleDrawable;) in Landroid/support/v7/widget/AppCompatImageHelper;
+04-12 21:42:07.791 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeMaxTextSize, referenced from method android.support.v7.widget.AppCompatTextView.getAutoSizeMaxTextSize
+04-12 21:42:07.791 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve virtual method 14602: Landroid/widget/TextView;.getAutoSizeMaxTextSize ()I
+04-12 21:42:07.791 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeMinTextSize, referenced from method android.support.v7.widget.AppCompatTextView.getAutoSizeMinTextSize
+04-12 21:42:07.791 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve virtual method 14603: Landroid/widget/TextView;.getAutoSizeMinTextSize ()I
+04-12 21:42:07.791 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeStepGranularity, referenced from method android.support.v7.widget.AppCompatTextView.getAutoSizeStepGranularity
+04-12 21:42:07.791 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve virtual method 14604: Landroid/widget/TextView;.getAutoSizeStepGranularity ()I
+04-12 21:42:07.791 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeTextAvailableSizes, referenced from method android.support.v7.widget.AppCompatTextView.getAutoSizeTextAvailableSizes
+04-12 21:42:07.791 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve virtual method 14605: Landroid/widget/TextView;.getAutoSizeTextAvailableSizes ()[I
+04-12 21:42:07.791 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeTextType, referenced from method android.support.v7.widget.AppCompatTextView.getAutoSizeTextType
+04-12 21:42:07.791 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve virtual method 14606: Landroid/widget/TextView;.getAutoSizeTextType ()I
+04-12 21:42:07.791 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.widget.TextView.setAutoSizeTextTypeUniformWithConfiguration, referenced from method android.support.v7.widget.AppCompatTextView.setAutoSizeTextTypeUniformWithConfiguration
+04-12 21:42:07.791 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve virtual method 14652: Landroid/widget/TextView;.setAutoSizeTextTypeUniformWithConfiguration (IIII)V
+04-12 21:42:07.791 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.widget.TextView.setAutoSizeTextTypeUniformWithPresetSizes, referenced from method android.support.v7.widget.AppCompatTextView.setAutoSizeTextTypeUniformWithPresetSizes
+04-12 21:42:07.791 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve virtual method 14653: Landroid/widget/TextView;.setAutoSizeTextTypeUniformWithPresetSizes ([II)V
+04-12 21:42:07.791 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.widget.TextView.setAutoSizeTextTypeWithDefaults, referenced from method android.support.v7.widget.AppCompatTextView.setAutoSizeTextTypeWithDefaults
+04-12 21:42:07.791 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve virtual method 14654: Landroid/widget/TextView;.setAutoSizeTextTypeWithDefaults (I)V
+04-12 21:42:07.801 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeStepGranularity, referenced from method android.support.v7.widget.AppCompatTextHelper.loadFromAttributes
+04-12 21:42:07.801 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve virtual method 14604: Landroid/widget/TextView;.getAutoSizeStepGranularity ()I
+04-12 21:42:07.801 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.text.StaticLayout$Builder.obtain, referenced from method android.support.v7.widget.AppCompatTextViewAutoSizeHelper.createStaticLayoutForMeasuring
+04-12 21:42:07.801 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve static method 13068: Landroid/text/StaticLayout$Builder;.obtain (Ljava/lang/CharSequence;IILandroid/text/TextPaint;I)Landroid/text/StaticLayout$Builder;
+04-12 21:42:07.811 3298-3298/edu.washington.minsugim.activityspy I/MainActivity: onStart event fired
     onResume event fired
-04-12 21:24:34.040 2133-2133/? E/eglCodecCommon: glUtilsParamSize: unknow param 0x00008cdf
+04-12 21:42:07.971 3298-3298/edu.washington.minsugim.activityspy E/eglCodecCommon: glUtilsParamSize: unknow param 0x00008cdf
     glUtilsParamSize: unknow param 0x00008824
-04-12 21:24:34.040 2133-2133/? E/EGL_emulation: tid 2133: eglSurfaceAttrib(1199): error 0x3009 (EGL_BAD_MATCH)
-04-12 21:24:34.040 2133-2133/? W/HardwareRenderer: Backbuffer cannot be preserved
-04-12 21:24:34.050 2133-2133/? I/dalvikvm: Could not find method android.view.View.setTooltipText, referenced from method android.support.v7.widget.TooltipCompat.setTooltipText
-04-12 21:24:34.050 2133-2133/? W/dalvikvm: VFY: unable to resolve virtual method 13609: Landroid/view/View;.setTooltipText (Ljava/lang/CharSequence;)V
-04-12 21:24:46.710 2133-2133/edu.washington.minsugim.activityspy E/MainActivity: We're going down, Captain!
+04-12 21:42:07.981 3298-3298/edu.washington.minsugim.activityspy E/EGL_emulation: tid 3298: eglSurfaceAttrib(1199): error 0x3009 (EGL_BAD_MATCH)
+04-12 21:42:07.981 3298-3298/edu.washington.minsugim.activityspy W/HardwareRenderer: Backbuffer cannot be preserved
+04-12 21:42:08.031 3298-3298/edu.washington.minsugim.activityspy I/dalvikvm: Could not find method android.view.View.setTooltipText, referenced from method android.support.v7.widget.TooltipCompat.setTooltipText
+04-12 21:42:08.031 3298-3298/edu.washington.minsugim.activityspy W/dalvikvm: VFY: unable to resolve virtual method 13609: Landroid/view/View;.setTooltipText (Ljava/lang/CharSequence;)V
+04-12 22:01:02.611 3298-3298/edu.washington.minsugim.activityspy E/MainActivity: We're going down, Captain!
