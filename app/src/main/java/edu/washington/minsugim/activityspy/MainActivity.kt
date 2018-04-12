@@ -20,6 +20,12 @@ class MainActivity : AppCompatActivity() {
         Log.i(TAG, "onStart event fired")
     }
 
+    override fun onResume() {
+        super.onResume()
+
+        Log.i(TAG, "onResume event fired")
+    }
+
     override fun onDestroy() {
         super.onDestroy()
 
